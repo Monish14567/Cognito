@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognito</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link To Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <a href="#" class="menu-icon" id="menu-icon">
+                <i class='bx bx-menu bx-md'></i>
+            </a>
+            <img class="logo" src="images/CognitoLogo-Photoroom (1).png" alt="CognitoLogo">
+            <div class="search-container">
+                <i class='bx bx-search bx-md' id="search-icon"></i>
+                <input type="text" class="search-input" id="search-input" placeholder="Search...">
+            </div>
+        </div>
+    </header>
+
+    <!-- Side Menu -->
+    <nav class="side-menu" id="side-menu">
+        <ul>
+            <li><a href="#science" class="menu-option">Science</a></li>
+            <li><a href="#technology" class="menu-option">Technology</a></li>
+            <li><a href="#social-science" class="menu-option">Social Sciences</a></li>
+            <li><a href="#geopolitics" class="menu-option">Geopolitics</a></li>
+            <li><a href="#math" class="menu-option">Mathematics</a></li>
+        </ul>
+    </nav>
+    <div id="mainContent">
+        <div id="science" class="sec">
+            <h1>Science</h1>
+            <div class="grid"></div>
+        </div>
+        <div id="technology" class="sec">
+            <h1>Technology</h1>
+            <div class="grid"></div>
+        </div>
+        <div id="social-science" class="sec">
+            <h1>Social Sciences</h1>
+            <div class="grid"></div>
+        </div>
+        <div id="geopolitics" class="sec">
+            <h1>Geopolitics</h1>
+            <div class="grid"></div>
+        </div>
+        <div id="math" class="sec">
+            <h1>Mathematics</h1>
+            <div class="grid"></div>
+        </div>
+    </div>
+
+    <div class="fullscreen" id="fullscreen">
+        <a id="backButton"><i class='bx bx-arrow-back bx-md'></i></a>
+        <iframe id="fullscreenIframe" frameborder="0"></iframe>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
